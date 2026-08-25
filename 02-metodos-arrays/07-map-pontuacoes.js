@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+const potucao = [20, 35, 40, 55];
+
+const bonus = potucao.map((bonus) => bonus + 5);
+
+console.log(potucao);
+console.log(bonus);
