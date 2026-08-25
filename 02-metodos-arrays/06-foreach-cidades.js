@@ -13,5 +13,5 @@ const cidades = [
 ];
 
 cidades.forEach((cidade) => {
-  console.log(cidade);
+  console.log(cidade.toUpperCase());
 });

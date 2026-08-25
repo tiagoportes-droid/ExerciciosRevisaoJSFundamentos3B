@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos = [
+  { titulo: "Zelda", platforma: "Console", classificacao: 12 },
+  { titulo: "Mario", platforma: "Console", classificacao: 0 },
+  { titulo: "Counter Strike", platforma: "Computador", classificacao: 18 }
+];
+
+jogos.forEach((games) => {
+  console.log(games);
+});
