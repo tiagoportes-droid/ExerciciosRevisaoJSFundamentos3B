@@ -6,6 +6,6 @@
 // Escreva sua solução abaixo:
 
 const verificarValor = (valorCompra) => {
-    return valorCompra >= 150 ? "Frete Gratis" : "Frete Pago"
-}
-console.log(verificarValor(150))
+  return valorCompra >= 150 ? "Frete Gratis" : "Frete Pago";
+};
+console.log(verificarValor(150));

@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let minuto = 3;
+
+const conversao = (minutos) => {
+  return minutos * 60;
+};
+
+console.log(`A conversão de ${minuto}min fica de ${conversao(minuto)}`)
