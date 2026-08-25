@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const linguagens = ["Python", "Luau", "JavaScript"];
+
+const [primeira, segunda, terceira] = linguagens;
+
+console.log(primeira);
+console.log(segunda);
+console.log(terceira);
