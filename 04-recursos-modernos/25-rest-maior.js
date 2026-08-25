@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const maiorNumero = (...numeros) => {
+  return Math.max(...numeros);
+};
+
+console.log(maiorNumero(10, 20, 32, 102, 10232, 1411));
