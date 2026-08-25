@@ -4,3 +4,14 @@
 //
 // Escreva sua solução abaixo:
 
+const cidades = [
+  "São Paulo",
+  "Osaco",
+  "Sorocaba",
+  "Pindamonhamgaba",
+  "Guarulhos",
+];
+
+cidades.forEach((cidade) => {
+  console.log(cidade);
+});
