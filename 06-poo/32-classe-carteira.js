@@ -5,3 +5,24 @@
 //
 // Escreva sua solução abaixo:
 
+class CarteiraDigital {
+    #saldo = 0;
+
+    adicionarCredito(valor){
+        this.#saldo += valor;
+    }
+
+    realizarPagamento(valor){
+        this.#saldo -= valor
+    }
+
+    consultarSaldo(){
+        console.log(`O seu saldo atual é de ${this.#saldo}`)
+    }
+}
+
+const carteiraDigital = new CarteiraDigital
+carteiraDigital.adicionarCredito(1000)
+carteiraDigital.realizarPagamento(100)
+
+carteiraDigital.consultarSaldo()
