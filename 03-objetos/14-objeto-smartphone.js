@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const smartphone = {
+  marca: "Xiomi",
+  modelo: "PocoX1",
+  armazenamento: 256,
+  ligado: true,
+};
+
+console.log(smartphone);
