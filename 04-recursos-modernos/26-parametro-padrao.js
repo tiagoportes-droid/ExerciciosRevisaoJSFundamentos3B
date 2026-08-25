@@ -6,8 +6,8 @@
 // Escreva sua solução abaixo:
 
 const padrao = (nome = "Visitante") => {
-    console.log(`Hello, ${nome}`)
-}
+  console.log(`Hello, ${nome}`);
+};
 
-padrao()
-padrao("Tiago")
+padrao();
+padrao("Tiago");

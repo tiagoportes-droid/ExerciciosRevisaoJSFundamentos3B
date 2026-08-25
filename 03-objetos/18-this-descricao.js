@@ -5,12 +5,12 @@
 // Escreva sua solução abaixo:
 
 const curso = {
-    nome: "Desnvolvimento de Sistemas",
-    modalidade: "Presencial",
+  nome: "Desnvolvimento de Sistemas",
+  modalidade: "Presencial",
 
-    descrever(){
-        return console.log(`Curso: ${this.nome} | Modalidade: ${this.modalidade}`)
-    }
-}
+  descrever() {
+    return console.log(`Curso: ${this.nome} | Modalidade: ${this.modalidade}`);
+  },
+};
 
-curso.descrever()
+curso.descrever();

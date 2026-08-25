@@ -11,4 +11,4 @@ const cliente = {
 };
 
 const spread = { ...cliente, ouro: 100 };
-console.log(spread)
+console.log(spread);

@@ -11,4 +11,4 @@ const conversao = (minutos) => {
   return minutos * 60;
 };
 
-console.log(`A conversão de ${minuto}min fica de ${conversao(minuto)}`)
+console.log(`A conversão de ${minuto}min fica de ${conversao(minuto)}`);

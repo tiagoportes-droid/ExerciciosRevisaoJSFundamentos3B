@@ -7,6 +7,9 @@
 
 const horasTrabalhadas = [8, 7, 8, 6, 8];
 
-const totalHorasTrabalhadas = horasTrabalhadas.reduce((total, valor) => total + valor, 0)
+const totalHorasTrabalhadas = horasTrabalhadas.reduce(
+  (total, valor) => total + valor,
+  0,
+);
 
-console.log(`O total de horas trabalhadas foi de ${totalHorasTrabalhadas}`)
+console.log(`O total de horas trabalhadas foi de ${totalHorasTrabalhadas}`);

@@ -9,4 +9,4 @@ const amigos = ["Matheus", "Gustavo", "Davi"];
 
 const convidados = [...familia, ...amigos];
 
-console.log(convidados)
+console.log(convidados);

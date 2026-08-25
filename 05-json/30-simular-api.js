@@ -6,3 +6,13 @@
 //
 // Escreva sua solução abaixo:
 
+const simuAPI = [
+  { status: true, quantidade: 4, cliente: [{ nome: "Tiago", idade: 16 }] },
+  { status: false, quantidade: 20, cliente: [{ nome: "Pablo", idade: 17 }] },
+];
+
+const json = JSON.stringify(simuAPI);
+console.log(json);
+
+const json2 = JSON.parse(json);
+console.log(json2);
