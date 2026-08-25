@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+const ingresso = {
+  evento: "Rock in Rio",
+  preco: 190,
+  quantidade: 2,
+};
+
+console.log(ingresso);
+
+ingresso.preco = 200;
+ingresso.quantidade = 4;
+
+console.log(ingresso);
