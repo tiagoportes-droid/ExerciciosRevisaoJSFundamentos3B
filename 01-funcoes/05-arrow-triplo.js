@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+let numero = 12;
+
+const funcaoTripla = (numero) => {
+  return numero * 3;
+};
+
+console.log(`O numero escolhido triplicado é: ${funcaoTripla(numero)}`);
