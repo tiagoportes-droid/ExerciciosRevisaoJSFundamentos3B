@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+const paciente = {
+    nome: "Ingrid",
+    idade: 32,
+    convenio: "Sua vida, minha casa"
+}
+
+console.log(`Nome: ${paciente.nome} | Convenio: ${paciente.convenio}`)
