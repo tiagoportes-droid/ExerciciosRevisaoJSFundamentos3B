@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const distanciaMedia = (quilometros, litro) =>{
+    return quilometros / litro;
+}
+
+console.log(`A media é de ${distanciaMedia(10, 2)}`)
