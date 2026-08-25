@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const saldos = [120, 50, -20, 300, 75];
+
+const someSaldos = saldos.some((saldo) => saldo < 0);
+
+console.log(someSaldos);
