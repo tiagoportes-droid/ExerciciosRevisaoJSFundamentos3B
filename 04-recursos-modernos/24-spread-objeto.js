@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const cliente = {
+  nome: "Tiago",
+  telefone: "+55 (11)-9 9999 99999",
+};
+
+const spread = { ...cliente, ouro: 100 };
+console.log(spread)
