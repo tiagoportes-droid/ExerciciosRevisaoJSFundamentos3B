@@ -5,3 +5,29 @@
 //
 // Escreva sua solução abaixo:
 
+class Produto {
+  constructor(nome, preco) {
+    this.nome = nome;
+    this.preco = preco;
+  }
+
+  exibirDados() {
+    console.log(`O produto ${this.nome} tem o preço de R$ ${this.preco}`);
+  }
+}
+
+class ProdutoDigital extends Produto {
+  constructor(nome, preco, tamanhoArquivo) {
+    super(nome, preco);
+    this.tamanhoArquivo = tamanhoArquivo;
+  }
+
+  exibirDados() {
+    console.log(
+      `O produto ${this.nome} tem o preço de R$ ${this.preco} e ocupa ${this.tamanhoArquivo}MB.`,
+    );
+  }
+}
+
+const ebook = new ProdutoDigital("E-book de JavaScript", 29.9, 15);
+ebook.exibirDados();

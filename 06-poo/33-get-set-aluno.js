@@ -10,15 +10,15 @@ class Aluno {
 
   constructor(nome, nota) {
     this.nome = nome;
-    this.nota = nota; // Passa pelo setter para validar já no constructor!
+    this.nota = nota;
   }
 
-  // Getter para ler a nota
+
   get nota() {
     return this.#nota;
   }
 
-  // Setter para alterar e validar a nota
+
   set nota(valor) {
     if (valor >= 0 && valor <= 10) {
       this.#nota = valor;
